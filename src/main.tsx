@@ -8,7 +8,7 @@ const root: HTMLElement = document.getElementById('root')!
 
 createRoot(root).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/design-system">
       <Routes>
         <Route path="/" element={<App />} />  
       </Routes>
